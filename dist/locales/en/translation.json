@@ -1,0 +1,106 @@
+{
+    "title": "Welcome",
+    "buttonDetails": "More Details",
+    "buttonReadMore": "Read More",
+    "buttonMoreArticles": "More articles",
+    "buttonMoreCaseStudies": "More case studies",
+    "buttonHomePage": "Go to Homepage",
+    "hero": {
+        "title1": "Modernize your",
+        "titleImp": "digital products",
+        "title2": "for tomorrow's future.",
+        "text": "We think and design unique experiences <br /> for tomorrow's innovative digital products.",
+        "button1": "Let's talk",
+        "button2": "About us"
+    },
+    "navigation": {
+        "home": "Home",
+        "about": "About us",
+        "works": "Works",
+        "careers": "Carreers"
+    },
+    "banner": {
+        "first": "Years of experience",
+        "second": "Projects completed",
+        "third": "Team leads & employees",
+        "fourth": "Different nationalities"
+    },
+    "about": {
+        "subtitle1": "Our story",
+        "subtitle2": "Our offices",
+        "subtitle3": "Our development",
+        "category": "About us",
+        "title": "Custom software systems for over",
+        "titleImp": "30 years",
+        "text": "Lunatech provides innovative solutions for the creation and modernisation of your digital products through the following services."
+    },
+    "modal": {
+        "category": "Nos bureaux",
+        "contactUsBtn": "Contact us"
+    },
+    "service": {
+        "subtitle": "Services",
+        "text": "Lunatech provides innovative solutions for the creation and modernization of your digital products through the following services:"
+    },
+    "services": {
+        "title": "Meet your needs with ",
+        "titleColor": "our services",
+        "text": "We provide a wide range of services to help you meet your needs. We are experts in the following areas:"
+    },
+    "articles": {
+        "subtitle": "Articles"
+    },
+    "integration": {
+        "title": "Integration",
+        "text": "We help you to integrate your applications and data, whether they are on-premise or in the cloud, using the best open source technologies."
+    },
+    "officeModal": {
+        "subtitle": "Our offices"
+    },
+    "contact": {
+        "subtitle": "Contact",
+        "title": "Let's work ",
+        "titleColor": "together",
+        "text": "Let us help you become even greater at what you do. Fill out the following form and we will get back to you in the next 24 hours.",
+        "label":
+        {
+            "fullName": "What's your name?",
+            "email": "What's your email address?",
+            "phone": "What's your phone number?",
+            "company": "What's your company/organization name?",
+            "services": "What's services are you looking for?",
+            "project": "Tell us about your project"
+        },
+        "placeHolder":
+        {
+            "fullName": "Type your full name",
+            "company": "Type your company/organization name",
+            "services": "Choose from the list here",
+            "project": "Please type your project description"
+        },
+        "options": {
+            "webDesign": "Web design",
+            "webDevelopment": "Web development",
+            "appDevelopment": "App development",
+            "uxDesign": "UX design",
+            "seo": "SEO",
+            "marketing": "Marketing",
+            "other": "Other"
+        }
+    },
+    "address": {
+        "countryNL": "Netherlands",
+        "countryFR": "France",
+        "countryEN": "United Kingdom",
+        "subtitle1": "Business development",
+        "subtitle2": "Careers",
+        "subtitle3": "Address"
+    },
+    "footer": {
+        "managed": "Managed by Lunatech Labs.",
+        "copyright": "All rights reserved.",
+        "terms": "Terms of Services",
+        "title1": "Plan",
+        "title2": "Get connected"
+    }
+}

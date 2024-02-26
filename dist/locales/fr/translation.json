@@ -1,0 +1,105 @@
+{
+    "title": "Bienvenue",
+    "buttonDetails": "Plus de détails",
+    "buttonReadMore": "En savoir plus",
+    "buttonMoreArticles": "Plus d'articles",
+    "buttonMoreCaseStudies": "Plus d'études de cas",
+    "buttonHomePage": "Retour à l'accueil",
+    "hero": {
+        "title1": "Modernisez vos",
+        "titleImp": "produits numériques",
+        "title2": "pour l'avenir de demain.",
+        "text": "Nous pensons et concevons des expériences uniques <br /> pour les produits numériques innovants de demain.",
+        "button1": "Contact",
+        "button2": "A propos"
+    },
+    "navigation":{
+        "home": "Accueil",
+        "about": "A propos",
+        "works": "Travaux",
+        "careers": "Carrières"
+    },
+    "banner": {
+        "first": "Années d'experience",
+        "second": "Projets achevés",
+        "third": "Chefs d'équipe & employés",
+        "fourth": "Nationalités différentes"
+    },
+    "about": {
+        "subtitle1": "Notre histoire",
+        "subtitle2": "Nos bureaux",
+        "subtitle3": "Notre parcours",
+        "category": "A propos",
+        "title": "Systèmes logiciels personnalisés depuis plus de",
+        "titleImp": "30 ans",
+        "text": "Lunatech apporte des solutions novatrices dans la création et la modernisation de vos produits digitaux grâce aux services suivants."
+    },
+    "modal": {
+        "category": "Nos bureaux",
+        "contactUsBtn": "Contactez-nous"
+    },
+    "service": {
+        "subtitle": "Services",
+        "text": "Lunatech apporte des solutions novatrices dans la création et la modernisation de vos produits digitaux grâce aux services suivants :"
+    },
+    "services": {
+        "title":"Répondre à vos besoins grâce à ",
+        "titleColor":"nos services",
+        "text": "Nous proposons une large gamme de services pour vous aider à répondre à vos besoins. Nous sommes experts dans les domaines suivants :"
+    },
+    "articles": {
+        "subtitle": "Articles"
+    },
+    "integration": {
+        "title": "Intégration",
+        "text": "Nous intégrons des systèmes existants et des applications tierces dans votre écosystème digital. Nous utilisons des technologies open source et des standards ouverts pour garantir la pérennité de vos solutions."
+    },
+    "officeModal": {
+        "subtitle": "Nos bureaux"
+    },
+    "contact": {
+        "subtitle": "Contact",
+        "title": "Travaillons ",
+        "titleColor": "ensemble",
+        "text": "Laissez-nous vous aider à devenir encore plus performant dans ce que vous faites. Remplissez le formulaire suivant et nous vous répondrons dans les 24 heures.",
+        "label":
+        {
+            "fullName": "Quel est votre nom complet ?",
+            "email": "Quel est votre adresse e-mail ?",
+            "phone": "Quel est votre numéro de téléphone ?",
+            "company": "Quel est le nom de votre entreprise/organisation ?",
+            "services": "Quels services vous intéressent ?",
+            "project": "Parlez-nous de votre projet"
+        },
+        "placeHolder": {
+            "fullName": "Écrivez votre nom complet",
+            "company": "Écrivez le nom de votre entreprise/organisation",
+            "services": "Sélectionnez le service qui vous intéresse",
+            "project": "Parlez-nous de votre projet"
+        },
+        "options": {
+            "webDesign": "Web design",
+            "webDevelopment": "Web development",
+            "appDevelopment": "App development",
+            "uxDesign": "UX design",
+            "seo": "SEO",
+            "marketing": "Marketing",
+            "other": "Autre"
+        }
+    },
+    "address": {
+        "countryNL": "Pays-Bas",
+        "countryFR": "France",
+        "countryEN": "Royaume-Uni",
+        "subtitle1": "Développement de l'activité",
+        "subtitle2": "Carrières",
+        "subtitle3": "Adresse"
+    },
+    "footer": {
+        "managed": "Dirigé par Lunatech Labs.",
+        "copyright": "Tous droits réservés.",
+        "terms": "Conditions de service",
+        "title1": "Plan",
+        "title2": "Get Connected"
+    }
+}
