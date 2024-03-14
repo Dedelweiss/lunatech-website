@@ -5,6 +5,7 @@ import Category from "@components/Category/Category";
 import Title from "@components/Title/Title";
 import "./OfficeModal.scss";
 import { closeIcon, emailIcon, flagIcon, homeIcon, messageIcon, peopleIcon, phoneIcon, profileIcon } from "@/assets";
+import { useRef } from "react";
 
 interface ModalProps {
     title: string;
@@ -22,11 +23,36 @@ interface ModalProps {
 
 const OfficeModal = (props: ModalProps) => {
     const { t } = useTranslation();
+    const boundingRef = useRef<DOMRect | null>(null);
+
+    const handleMouseEnter = (ev: React.MouseEvent<HTMLDivElement>) => {
+        boundingRef.current = ev.currentTarget.getBoundingClientRect();
+    }
+
+    const handleMouseLeave = () => {
+        boundingRef.current = null;
+    }
+
+    const handleMouseMove = (ev: React.MouseEvent<HTMLDivElement>) => {
+        if (!boundingRef.current) return;
+        const x = ev.clientX - boundingRef.current?.left;
+        const y = ev.clientY - boundingRef.current.top;
+        const xPercent = x / boundingRef.current.width;
+        const yPercent = y / boundingRef.current.height;
+        const xRotation = (xPercent - 0.5) * 20;
+        const yRotation = (0.5 - yPercent) * 20;
+
+        ev.currentTarget.style.setProperty('--x-rotation', `${yRotation}deg`);
+        ev.currentTarget.style.setProperty('--y-rotation', `${xRotation}deg`);
+    }
     
     return (
     <div className='office-modal'>
         <div onClick={props.handleClose} className="overlay"></div>
-        <div className='office-modal__content'>
+        <div className='office-modal__content'
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        onMouseMove={handleMouseMove}>
             <button className="office-modal__close-btn" type="button" onClick={props.handleClose}><img src={closeIcon} alt="Add" /></button>
        
             <div className="office-modal__image">
